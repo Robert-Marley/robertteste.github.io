@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    color:#FFFFFF;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 64%, rgba(129,249,255,0.8421743697478992) 100%);
+    
+}
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.avatar{
+    width: 80px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    box-shadow: 0 0 20px white;
+}
+
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+
+h2{
+    font-size: 16px;
+}
+
+.social{
+    display:flex;
+    justify-content:space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img{
+    width: 35px;
+}
+
+.links-list{
+    list-style: none;
+
+}
+
+.links-list li{
+    margin: 10px 20px;
+}
+
+.links-list li a{
+    background-color: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links-list li a span{
+    color: teal;
+    display: block;
+    margin-top: 5px;
+}
+
+.social-links-list{
+   list-style: none;
+}
+
+.social-links-list a{
+    background-color: #FFFFFF;
+    color: rgb(69, 77, 99) ;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    margin: 10px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    
+}
+
+.social-links-list a span{
+    color: teal;
+    display: block;
+    margin-top: 5px;
+}
+
+.VIP{
+    margin-top: 40px;
+}
